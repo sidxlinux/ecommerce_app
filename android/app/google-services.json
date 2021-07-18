@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "898626550477",
+    "project_id": "flutter-bagberg-app",
+    "storage_bucket": "flutter-bagberg-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898626550477:android:c9da463df4b84e5e758784",
+        "android_client_info": {
+          "package_name": "com.wild.bagberg.bagberg_shop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898626550477-gergauv5lb5449obqpd4kc9lp1aqen5f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wild.bagberg.bagberg_shop",
+            "certificate_hash": "a6298908e5229afb9a11067db1ebe880564e72fc"
+          }
+        },
+        {
+          "client_id": "898626550477-bi85dtq6e7v8vpaum9uc2ekum6pda5q2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2Xj8i9WBVDq9TOjPVPRe-RNNtGP68iug"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "898626550477-bi85dtq6e7v8vpaum9uc2ekum6pda5q2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
