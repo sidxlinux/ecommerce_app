@@ -3,6 +3,7 @@ import 'package:geocoder/geocoder.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
+
 class LocationProvider with ChangeNotifier{
 
   double latitude;
@@ -32,7 +33,7 @@ class LocationProvider with ChangeNotifier{
   Future<void>getMoveCamera()async{
     final coordinates = new Coordinates(this.latitude, this.longitude);
     final addresses = await Geocoder.local.findAddressesFromCoordinates(coordinates);
-    this.selectedAddress= addresses.first;
+    this.selectedAddress = addresses.first;
     print("${selectedAddress.featureName}: ${selectedAddress.addressLine}");
   }
 }

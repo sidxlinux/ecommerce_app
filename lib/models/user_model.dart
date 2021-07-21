@@ -16,6 +16,6 @@ class UserModel{
 
   UserModel.formSnapshot(DocumentSnapshot snapshot){
     _number = snapshot.data()[NUMBER];
-    _id = snapshot.data()[NUMBER];
+    _id = snapshot.data()[ID];
   }
 }

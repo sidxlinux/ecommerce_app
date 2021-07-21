@@ -1,4 +1,3 @@
-
 import 'package:bagberg_shop/providers/auth_provider.dart';
 import 'package:bagberg_shop/screens/map_screen.dart';
 import 'package:bagberg_shop/screens/welcome_screen.dart';

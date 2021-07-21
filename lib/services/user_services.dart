@@ -1,6 +1,5 @@
-
-
 //for all firebase related services for user
+
 import 'package:bagberg_shop/models/user_model.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 //import 'package:firebase_core/firebase_core.dart';
